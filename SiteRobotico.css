@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-tecnologia-de-natal-gradiente_23-2149758674.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724716800&semt=ais_hybrid");
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    color: white;
+    position: relative;
+}
+
+p, h1, h2, h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.container1 {
+    width: 400px;
+    height: 50px;
+    padding: 16px;
+    background-color: #363131;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container3 {
+    width: 450px;
+    padding: 16px;
+    background-color: #363131;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 120px;
+    left: 520px;
+}
+
+#content,
+#content2,
+#content3,
+#content4 {
+  display: none;
+}
+
+#container2.expanded,
+#container22.expanded,
+#container23.expanded,
+#container24.expanded {
+  height: auto;
+}
+
+#container2.expanded #content,
+#container22.expanded #content2,
+#container23.expanded #content3,
+#container24.expanded #content4 {
+  display: block;
+}
+
+#container2,
+#container22,
+#container23,
+#container24 {
+    width: 300px;
+    background-color: #363131;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: height 0.5s ease;
+    height: 30px;
+    margin-left: 0;
+    position: relative; /* Mudou de absolute para relative */
+}
+
+#container22 {
+    margin-top: 20px; /* Adicionou margem superior */
+}
+
+#container23 {
+    margin-top: 20px; /* Adicionou margem superior */
+}
+
+#container24 {
+    margin-top: 20px; /* Adicionou margem superior */
+}
+
+#containerimg,
+#containerimg2,
+#containerimg3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#containerimg img,
+#containerimg2 img,
+#containerimg3 img {
+    max-width: 100px;
+    height: auto;
+}
+
+#containerimg2 {
+    right: 140px;
+}
+
+#containerimg3 {
+    right: 260px;
+}
+
+.containerimg4 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.containerimg4 img {
+    max-width: 150px;
+    height: auto;
+}
