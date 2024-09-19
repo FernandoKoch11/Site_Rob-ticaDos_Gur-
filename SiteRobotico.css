@@ -91,6 +91,7 @@ p, h1, h2, h3 {
     bottom: 20px;
     right: 20px;
     position: relative; /* Mudou de absolute para relative */
+    display: flex;
 }
 
 #containerimg img,
