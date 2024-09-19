@@ -88,7 +88,6 @@ p, h1, h2, h3 {
 #containerimg,
 #containerimg2,
 #containerimg3 {
-    position: absolute;
     bottom: 20px;
     right: 20px;
     position: relative; /* Mudou de absolute para relative */
