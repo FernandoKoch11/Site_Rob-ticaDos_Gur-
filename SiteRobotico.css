@@ -90,7 +90,7 @@ p, h1, h2, h3 {
 #containerimg3 {
     bottom: 20px;
     right: 20px;
-    position: relative; /* Mudou de absolute para relative */
+    position: absolute;
 
 }
 
@@ -99,8 +99,6 @@ p, h1, h2, h3 {
 #containerimg3 img {
     max-width: 100px;
     height: auto;
-  
-
 }
 
 #containerimg2 {
