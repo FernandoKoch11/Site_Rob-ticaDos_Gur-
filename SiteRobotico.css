@@ -31,10 +31,10 @@ p, h1, h2, h3 {
     padding: 16px;
     background-color: #363131;
     border: 1px solid #ddd;
-    position: relative;
-    top: 120px;
-    left: 520px;
-    right: 520px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #content,
