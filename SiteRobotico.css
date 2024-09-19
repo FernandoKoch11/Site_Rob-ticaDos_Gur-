@@ -100,14 +100,19 @@ p, h1, h2, h3 {
     max-width: 100px;
     height: auto;
     position: relative; /* Mudou de absolute para relative */
+     display: flex;
 }
 
 #containerimg2 {
     right: 140px;
+    position: relative; /* Mudou de absolute para relative */
+    display: flex;
 }
 
 #containerimg3 {
     right: 260px;
+    position: relative; /* Mudou de absolute para relative */
+    display: flex;
 }
 
 .containerimg4 {
