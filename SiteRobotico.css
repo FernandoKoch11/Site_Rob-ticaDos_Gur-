@@ -34,6 +34,7 @@ p, h1, h2, h3 {
     position: absolute;
     top: 120px;
     left: 520px;
+    display: flex;
 }
 
 #content,
