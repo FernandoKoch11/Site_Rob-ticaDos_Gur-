@@ -98,6 +98,7 @@ p, h1, h2, h3 {
 #containerimg3 img {
     max-width: 100px;
     height: auto;
+    position: relative; /* Mudou de absolute para relative */
 }
 
 #containerimg2 {
